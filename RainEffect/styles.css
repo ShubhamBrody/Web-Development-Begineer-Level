@@ -1,0 +1,132 @@
+body{
+  margin : 0;
+  padding : 0;
+  background : url(BLACKBG.jpg);
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+
+h1{
+  color : #fff;
+  font-size: 10rem;
+  margin: 0;
+  padding:0;
+  text-align : center;
+}
+
+.rain{
+  height : 100vh;
+  background : url(rain.png);
+  opacity : 0.6;
+  animation: rain .4s linear infinite;
+}
+
+.rain:before{
+  content : '';
+  position : absolute;
+  width : 100%;
+  height : 100%;
+  background: #fff;
+  animation: lighting 15s linear infinite;
+  opacity : 0;
+}
+
+@keyframes rain
+{
+  0%
+  {
+    background-position: 10% 100%;
+  }
+
+  100%
+  {
+    background-position: 0 0;
+  }
+}
+
+@keyframes lighting{
+  0%
+  {
+    opacity : 0;
+  }
+  1%
+  {
+    opacity : 0;
+  }
+  1.3%
+  {
+    opacity : 1;
+  }
+  10%
+  {
+    opacity : 0;
+  }
+  11%
+  {
+    opacity : 1;
+  }
+  13%
+  {
+    opacity : 0;
+  }
+  13.5%
+  {
+    opacity : 1;
+  }
+  14%
+  {
+    opacity : 0;
+  }
+  55%
+  {
+    opacity : 0;
+  }
+  55.2%
+  {
+    opacity : 1;
+  }
+  56%
+  {
+    opacity : 0;
+  }
+  57%
+  {
+    opacity : 1;
+  }
+  65%
+  {
+    opacity : 0;
+  }
+  80%
+  {
+    opacity : 0;
+  }
+  81%
+  {
+    opacity : 1;
+  }
+  90%
+  {
+    opacity : 0;
+  }
+  91%
+  {
+    opacity : 1;
+  }
+  95%
+  {
+    opacity : 0;
+  }
+  95.5%
+  {
+    opacity : 1;
+  }
+  99%
+  {
+    opacity : 0;
+  }
+  100%
+  {
+    opacity : 1;
+  }
+}

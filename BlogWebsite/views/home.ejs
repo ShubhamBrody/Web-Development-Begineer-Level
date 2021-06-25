@@ -1,0 +1,14 @@
+<%- include('partials/header') -%>
+
+  <h1>Home</h1>
+  <p><%= homeContent %></p>
+
+  <% postObjects.forEach((item, index) => { %>
+    <div class="post-column">
+      <h1><%= item.name %></h1>
+      <p class="text-wrap"><%= item.shortPost %></p>
+      <a href=<%= item.readMoreLink %>>Read More</a>
+    </div>
+    <% }) %>
+
+<%- include('partials/footer') -%>

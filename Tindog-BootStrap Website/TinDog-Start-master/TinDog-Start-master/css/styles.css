@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Navbar";
+  src: url("Ubuntu/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Navbar-Others";
+  src: url("Ubuntu/Ubuntu-Light.ttf");
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.nav-link{
+  padding-left: 20px;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.nav-list{
+  padding: 0 20px;
+}
+
+.navbar-nav{
+  font-family: "Montserrat";
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 1000;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container{
+  padding: 3% 15% 10%;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Navbar";
+}
+
+.btn{
+  margin: 5px;
+}
+
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+.fas{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.groupfeatures{
+  text-align: center;
+  padding: 5%;
+}
+
+.carousel-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color : #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.logo{
+  width: 15%;
+  margin-left: 20px 20px 50px;
+}
+
+.card-deck{
+  text-align: center;
+  margin: auto 100px;
+}
+
+.card{
+  margin:20px 10px;
+}
+
+#pricing{
+  margin: 100px 0px;
+  text-align: center;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.ctaline{
+  font-size: 50px;
+  padding-bottom: 30px;
+  color: white;
+  /* font-weight: 1000px; */
+}
+
+.ctacont{
+  padding: 150px;
+}
+
+#footer{
+  text-align: center;
+  margin-bottom: 0;
+  background-color: #fff;
+  padding-top:2px;
+  padding: 100px;
+}
+
+.fa-envelope{
+  color: #000;
+}
+
+.socialtabs{
+  color: black;
+  margin: 10px 12px;
+  text-decoration: none;
+}
+
+.socialtabs:hover{
+  color: #ff4c68;
+}
+
+@media (max-width: 1000px) {
+  .title-image{
+    width: 80%;
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title{
+    text-align: center;
+  }
+}

@@ -1,0 +1,160 @@
+@font-face {
+  font-family: bodyFont;
+  src: url(fonts/body/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: headerFont;
+  src: url('fonts/Heading/MrsSaintDelafield-Regular.ttf');
+}
+
+body{
+  height: 100vh;
+  color: #40510E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway-Medium.ttf', bodyFont;
+  font-size: 20px;
+}
+
+hr{
+  background-color: transparent;
+  border-style: none;
+  border-top: 10px dotted #eaf6f6;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/*#####100% font size is eqivlent to 16px
+      Similrly, 1em is also 16px #####*/
+h1{
+  margin: 100px auto 0 auto;
+  font-family: 'MrsSaintDelafield-Regular.ttf', headerFont;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2{
+  font-size: 2em;/*40px*/
+  color: #66bfbf;
+  font-weight: normal;
+  margin: 50px auto 50px auto;
+}
+
+h3{
+  color: #11999e;
+}
+
+p{
+  line-height: 2;
+}
+
+.profilepic{
+  height: 150px;
+  border-radius: 50%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skillsimgapp{
+  height: 20%;
+  width: 20%;
+  float: left;
+}
+
+.skillsimgdev{
+  height: 20%;
+  width: 20%;
+  float: right;
+}
+
+.topContainer{
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer{
+  margin: 100px 0;
+}
+
+.bottomContainer{
+  margin: 100px auto 0px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #66bfbf;
+}
+
+.bottomCloud {
+  position: absolute;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.upperCloud{
+  position: absolute;
+  right: 420px;
+  top: 80px;
+}
+
+.contactMessage{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a{
+  color: #11999e;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px auto;
+}
+
+.footer-link{
+  margin: auto 20px
+}
+
+.btn {
+  background: #3497d9;
+  background-image: -webkit-linear-gradient(top, #3497d9, #2bb882);
+  background-image: -moz-linear-gradient(top, #3497d9, #2bb882);
+  background-image: -ms-linear-gradient(top, #3497d9, #2bb882);
+  background-image: -o-linear-gradient(top, #3497d9, #2bb882);
+  background-image: linear-gradient(to bottom, #3497d9, #2bb882);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.btn:hover {
+  background: #fada3c;
+  background-image: -webkit-linear-gradient(top, #fada3c, #d96e34);
+  background-image: -moz-linear-gradient(top, #fada3c, #d96e34);
+  background-image: -ms-linear-gradient(top, #fada3c, #d96e34);
+  background-image: -o-linear-gradient(top, #fada3c, #d96e34);
+  background-image: linear-gradient(to bottom, #fada3c, #d96e34);
+  text-decoration: none;
+}
+
+/*Spans are used to change a part of element in a block HTML tags . Block
+tags are those tags which take up the whole space in their line*/

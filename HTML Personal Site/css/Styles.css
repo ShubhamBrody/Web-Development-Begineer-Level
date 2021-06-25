@@ -1,0 +1,82 @@
+body{
+    background-color: #ccf2f4;
+}
+
+hr{
+  background-color: transparent;
+  border-style: none;
+  border-top: 5px dotted grey;
+  width: 5%;
+}
+
+h1{
+  color: #66BFBF;
+}
+
+
+/*#########THIS IS ID BASED STYLING##########
+
+ID is unique*/
+
+#Name:hover{
+  animation: rack 1s infinite;
+}
+
+@keyframes rack {
+
+  0%{
+    transform: scale3d(1, 1, 1);
+  }
+  50%{
+    transform: scale3d(1, 1.2, 1);
+  }
+
+}
+
+h3{
+  color: #66BFBF;
+}
+
+
+/*#########THIS IS CLASS BASED STYLING##########
+
+Class can have multiple instances*/
+
+.MyImage{
+  height: 150px;
+  border-radius: 50%;
+  animation: mymove 1s;
+}
+
+@keyframes mymove {
+
+  50% {
+    transform: translateX(10px);
+  }
+
+}
+
+.MyImage:hover{
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+
+  50%{
+    transform: rotateZ(-10deg);
+  }
+  70%{
+    transform: rotateZ(0deg);
+  }
+  80%{
+    transform: rotateZ(10deg);
+  }
+  90%{
+    transform: rotateZ(-10deg);
+  }
+  100%{
+    transform: rotateZ(0deg);
+  }
+
+
+}
